@@ -69,18 +69,16 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Diego Nonato`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        <strong className="text-stone-100">Desenvolvedor Frontend</strong>,<br/> Atualmente estudando na <strong className="text-stone-100">PUC Minas</strong><br/> Tecnólogo em Sistemas para Internet 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Gosto de programar em <strong className="text-stone-100">Javascript</strong>,
+        usando <strong className="text-stone-100">ReactJS</strong>, e tenho noções de {' '}
+        <strong className="text-stone-100">NextJS</strong>.
       </p>
     </>
   ),
@@ -104,92 +102,91 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Meu nome é Diego Nonato, tenho 27 anos e sou natural do Rio de Janeiro. Atualmente, sou estudante do quarto período do curso de Sistemas para Internet na PUC Minas EAD, onde estou aprendendo a criar soluções inovadoras para a internet. Meu objetivo é ser desenvolvedor frontend para poder trabalhar em projetos que tenham impacto na vida das pessoas e que possam mudar o mundo para melhor
+`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Localização', text: 'Rio de Janeiro, RJ', Icon: MapIcon},
+    {label: 'Idade', text: '28', Icon: CalendarIcon},
+    {label: 'Nacionalidade', text: 'Brasileiro', Icon: FlagIcon},
+    {label: 'Interesses', text: 'Futebol, Música, The Walking Dead', Icon: SparklesIcon},
+    {label: 'Formação', text: 'PUC Minas EAD', Icon: AcademicCapIcon},
+    {label: 'Trabalho', text: 'CaCay', Icon: BuildingOffice2Icon},
   ],
 };
 
 /**
  * Skills section
  */
-export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
-];
+// export const skills: SkillGroup[] = [
+//   {
+//     name: 'Spoken languages',
+//     skills: [
+//       {
+//         name: 'English',
+//         level: 10,
+//       },
+//       {
+//         name: 'French',
+//         level: 4,
+//       },
+//       {
+//         name: 'Spanish',
+//         level: 3,
+//       },
+//     ],
+//   },
+//   {
+//     name: 'Frontend development',
+//     skills: [
+//       {
+//         name: 'React',
+//         level: 9,
+//       },
+//       {
+//         name: 'Typescript',
+//         level: 7,
+//       },
+//       {
+//         name: 'GraphQL',
+//         level: 6,
+//       },
+//     ],
+//   },
+//   {
+//     name: 'Backend development',
+//     skills: [
+//       {
+//         name: 'Node.js',
+//         level: 8,
+//       },
+//       {
+//         name: 'Rust',
+//         level: 5,
+//       },
+//       {
+//         name: 'Golang',
+//         level: 4,
+//       },
+//     ],
+//   },
+//   {
+//     name: 'Mobile development',
+//     skills: [
+//       {
+//         name: 'React Native',
+//         level: 9,
+//       },
+//       {
+//         name: 'Flutter',
+//         level: 4,
+//       },
+//       {
+//         name: 'Swift',
+//         level: 3,
+//       },
+//     ],
+//   },
+// ];
 
 /**
  * Portfolio section
